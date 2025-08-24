@@ -1,0 +1,324 @@
+risha@Admin MINGW64 ~/OneDrive/Desktop/labwork (master)
+$ g++ second.cpp
+
+risha@Admin MINGW64 ~/OneDrive/Desktop/labwork (master)
+$ ./a
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 1
+Choose:
+1. Encrypt
+2. Decrypt
+3. Brute-force Decrypt
+1
+Enter message: rishabh1234
+Enter shift key: 20
+Encrypted: '}(|uv|EFGH
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 1
+Choose:
+1. Encrypt
+2. Decrypt
+3. Brute-force Decrypt
+2
+Enter message: '}(|uv|EFGH
+Enter shift key: 20
+Decrypted: rishabh1234
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 1
+Choose:
+1. Encrypt
+2. Decrypt
+3. Brute-force Decrypt
+3
+Enter cipher text: '}(|uv|EFGH
+
+Trying all possible keys from 0 to 94:
+Key 0: '}(|uv|EFGH
+Key 1: &|'{tu{DEFG
+Key 2: %{&zstzCDEF
+Key 3: $z%yrsyBCDE
+Key 4: #y$xqrxABCD
+Key 5: "x#wpqw@ABC
+Key 6: !w"vopv?@AB
+Key 7:  v!unou>?@A
+Key 8: ~u tmnt=>?@
+Key 9: }t~slms<=>?
+Key 10: |s}rklr;<=>
+Key 11: {r|qjkq:;<=
+Key 12: zq{pijp9:;<
+Key 13: ypzohio89:;
+Key 14: xoynghn789:
+Key 15: wnxmfgm6789
+Key 16: vmwlefl5678
+Key 17: ulvkdek4567
+Key 18: tkujcdj3456
+Key 19: sjtibci2345
+Key 20: rishabh1234
+Key 21: qhrg`ag0123
+Key 22: pgqf_`f/012
+Key 23: ofpe^_e./01
+Key 24: neod]^d-./0
+Key 25: mdnc\]c,-./
+Key 26: lcmb[\b+,-.
+Key 27: kblaZ[a*+,-
+Key 28: jak`YZ`)*+,
+Key 29: i`j_XY_()*+
+Key 30: h_i^WX^'()*
+Key 31: g^h]VW]&'()
+Key 32: f]g\UV\%&'(
+Key 33: e\f[TU[$%&'
+Key 34: d[eZSTZ#$%&
+Key 35: cZdYRSY"#$%
+Key 36: bYcXQRX!"#$
+Key 37: aXbWPQW !"#
+Key 38: `WaVOPV~ !"
+Key 39: _V`UNOU}~ !
+Key 40: ^U_TMNT|}~
+Key 41: ]T^SLMS{|}~
+Key 42: \S]RKLRz{|}
+Key 43: [R\QJKQyz{|
+Key 44: ZQ[PIJPxyz{
+Key 45: YPZOHIOwxyz
+Key 46: XOYNGHNvwxy
+Key 47: WNXMFGMuvwx
+Key 48: VMWLEFLtuvw
+Key 49: ULVKDEKstuv
+Key 50: TKUJCDJrstu
+Key 51: SJTIBCIqrst
+Key 52: RISHABHpqrs
+Key 53: QHRG@AGopqr
+Key 54: PGQF?@Fnopq
+Key 55: OFPE>?Emnop
+Key 56: NEOD=>Dlmno
+Key 57: MDNC<=Cklmn
+Key 58: LCMB;<Bjklm
+Key 59: KBLA:;Aijkl
+Key 60: JAK@9:@hijk
+Key 61: I@J?89?ghij
+Key 62: H?I>78>fghi
+Key 63: G>H=67=efgh
+Key 64: F=G<56<defg
+Key 65: E<F;45;cdef
+Key 66: D;E:34:bcde
+Key 67: C:D9239abcd
+Key 68: B9C8128`abc
+Key 69: A8B7017_`ab
+Key 70: @7A6/06^_`a
+Key 71: ?6@5./5]^_`
+Key 72: >5?4-.4\]^_
+Key 73: =4>3,-3[\]^
+Key 74: <3=2+,2Z[\]
+Key 75: ;2<1*+1YZ[\
+Key 76: :1;0)*0XYZ[
+Key 77: 90:/()/WXYZ
+Key 78: 8/9.'(.VWXY
+Key 79: 7.8-&'-UVWX
+Key 80: 6-7,%&,TUVW
+Key 81: 5,6+$%+STUV
+Key 82: 4+5*#$*RSTU
+Key 83: 3*4)"#)QRST
+Key 84: 2)3(!"(PQRS
+Key 85: 1(2' !'OPQR
+Key 86: 0'1&~ &NOPQ
+Key 87: /&0%}~%MNOP
+Key 88: .%/$|}$LMNO
+Key 89: -$.#{|#KLMN
+Key 90: ,#-"z{"JKLM
+Key 91: +",!yz!IJKL
+Key 92: *!+ xy HIJK
+Key 93: ) *~wx~GHIJ
+Key 94: (~)}vw}FGHI
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 2
+Choose:
+1. Encrypt
+2. Decrypt
+1
+Enter message: rishabh
+Enter 26-letter substitution key (AΓÇôZ): QWERTYUIOPASDFGHJKLZXCVBNM
+Encrypted: koliqwi
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 2
+Choose:
+1. Encrypt
+2. Decrypt
+2
+Enter message: koliqwi
+Enter 26-letter substitution key (AΓÇôZ): QWERTYUIOPASDFGHJKLZXCVBNM
+Decrypted: rishabh
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 3
+Choose:
+1. Encrypt
+2. Decrypt
+1
+Enter message: my cns sir is the best
+Enter Playfair key: MONARCHY
+Encrypted: NCYMXAXSAKTLCFCITL
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 3
+Choose:
+1. Encrypt
+2. Decrypt
+2
+Enter message: NCYMXAXSAKTLCFCITL
+Enter Playfair key: MONARCHY
+Decrypted: MYCNSXSIRISTHEBEST
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 3
+Choose:
+1. Encrypt
+2. Decrypt
+1
+Enter message: cns lect
+Enter Playfair key: MONARCHY
+Encrypted: YMTPLESZ
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 3
+Choose:
+1. Encrypt
+2. Decrypt
+2
+Enter message: YMTPLESZ
+Enter Playfair key: MONARCHY
+Decrypted: CNSLECTX
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 4
+Choose:
+1. Encrypt
+2. Decrypt
+1
+Enter message (uppercase only): RISHICNS
+Enter 2x2 key matrix (row-wise): 3 3 2 5
+Encrypted: XWXTEAPM
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 4
+Choose:
+1. Encrypt
+2. Decrypt
+2
+Enter message (uppercase only): XWXTEAPM
+Enter 2x2 key matrix (row-wise): 3 3 2 5
+Decrypted: RISHICNS
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 5
+Choose:
+1. Encrypt
+2. Decrypt
+1
+Enter message: ATTACK AT DAWN
+Enter keyword for Vigenere: KEY
+Encrypted: KXRKGI KX BKAL
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 5
+Choose:
+1. Encrypt
+2. Decrypt
+2
+Enter message: KXRKGI KX BKAL
+Enter keyword for Vigenere: KEY
+Decrypted: ATTACK AT DAWN
+
+Substitution Ciphers Menu in Rishabh's Hacking Arena
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 6
+Exiting program. Goodbye!
+
+risha@Admin MINGW64 ~/OneDrive/Desktop/labwork (master)
+$

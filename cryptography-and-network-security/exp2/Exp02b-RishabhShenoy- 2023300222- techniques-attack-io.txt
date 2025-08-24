@@ -1,0 +1,233 @@
+risha@Admin MINGW64 ~/OneDrive/Desktop/labwork (master)
+$ g++ second3.cpp
+
+risha@Admin MINGW64 ~/OneDrive/Desktop/labwork (master)
+$ ./a
+
+===== Substitution Ciphers Brute-Force Menu =====
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 1
+Enter cipher text: '}(|uv|EFGH
+
+=== Caesar Cipher Brute-Force ===
+Key 0: '}(|uv|EFGH
+Key 1: &|'{tu{DEFG
+Key 2: %{&zstzCDEF
+Key 3: $z%yrsyBCDE
+Key 4: #y$xqrxABCD
+Key 5: "x#wpqw@ABC
+Key 6: !w"vopv?@AB
+Key 7:  v!unou>?@A
+Key 8: ~u tmnt=>?@
+Key 9: }t~slms<=>?
+Key 10: |s}rklr;<=>
+Key 11: {r|qjkq:;<=
+Key 12: zq{pijp9:;<
+Key 13: ypzohio89:;
+Key 14: xoynghn789:
+Key 15: wnxmfgm6789
+Key 16: vmwlefl5678
+Key 17: ulvkdek4567
+Key 18: tkujcdj3456
+Key 19: sjtibci2345
+Key 20: rishabh1234
+Key 21: qhrg`ag0123
+Key 22: pgqf_`f/012
+Key 23: ofpe^_e./01
+Key 24: neod]^d-./0
+Key 25: mdnc\]c,-./
+Key 26: lcmb[\b+,-.
+Key 27: kblaZ[a*+,-
+Key 28: jak`YZ`)*+,
+Key 29: i`j_XY_()*+
+Key 30: h_i^WX^'()*
+Key 31: g^h]VW]&'()
+Key 32: f]g\UV\%&'(
+Key 33: e\f[TU[$%&'
+Key 34: d[eZSTZ#$%&
+Key 35: cZdYRSY"#$%
+Key 36: bYcXQRX!"#$
+Key 37: aXbWPQW !"#
+Key 38: `WaVOPV~ !"
+Key 39: _V`UNOU}~ !
+Key 40: ^U_TMNT|}~
+Key 41: ]T^SLMS{|}~
+Key 42: \S]RKLRz{|}
+Key 43: [R\QJKQyz{|
+Key 44: ZQ[PIJPxyz{
+Key 45: YPZOHIOwxyz
+Key 46: XOYNGHNvwxy
+Key 47: WNXMFGMuvwx
+Key 48: VMWLEFLtuvw
+Key 49: ULVKDEKstuv
+Key 50: TKUJCDJrstu
+Key 51: SJTIBCIqrst
+Key 52: RISHABHpqrs
+Key 53: QHRG@AGopqr
+Key 54: PGQF?@Fnopq
+Key 55: OFPE>?Emnop
+Key 56: NEOD=>Dlmno
+Key 57: MDNC<=Cklmn
+Key 58: LCMB;<Bjklm
+Key 59: KBLA:;Aijkl
+Key 60: JAK@9:@hijk
+Key 61: I@J?89?ghij
+Key 62: H?I>78>fghi
+Key 63: G>H=67=efgh
+Key 64: F=G<56<defg
+Key 65: E<F;45;cdef
+Key 66: D;E:34:bcde
+Key 67: C:D9239abcd
+Key 68: B9C8128`abc
+Key 69: A8B7017_`ab
+Key 70: @7A6/06^_`a
+Key 71: ?6@5./5]^_`
+Key 72: >5?4-.4\]^_
+Key 73: =4>3,-3[\]^
+Key 74: <3=2+,2Z[\]
+Key 75: ;2<1*+1YZ[\
+Key 76: :1;0)*0XYZ[
+Key 77: 90:/()/WXYZ
+Key 78: 8/9.'(.VWXY
+Key 79: 7.8-&'-UVWX
+Key 80: 6-7,%&,TUVW
+Key 81: 5,6+$%+STUV
+Key 82: 4+5*#$*RSTU
+Key 83: 3*4)"#)QRST
+Key 84: 2)3(!"(PQRS
+Key 85: 1(2' !'OPQR
+Key 86: 0'1&~ &NOPQ
+Key 87: /&0%}~%MNOP
+Key 88: .%/$|}$LMNO
+Key 89: -$.#{|#KLMN
+Key 90: ,#-"z{"JKLM
+Key 91: +",!yz!IJKL
+Key 92: *!+ xy HIJK
+Key 93: ) *~wx~GHIJ
+Key 94: (~)}vw}FGHI
+
+===== Substitution Ciphers Brute-Force Menu =====
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 2
+Enter plain text: THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+Enter cipher text: ZIT JXOEA WKGVF YGB PXDHL GCTK ZIT SQMN RGU
+
+=== Monoalphabetic Key Deduction ===
+Partial key (A->?, B->?, ... printed as 26-letter string where index 0=A):
+QWERTYUIOPASDFGHJKLZXCVBNM
+Mappings found:
+A -> Q   B -> W   C -> E   D -> R   E -> T   F -> Y   G -> U   H -> I   I -> O   J -> P   K -> A   L -> S   M -> D   N -> F   O -> G   P -> H   Q -> J   R -> K   S -> L   T -> Z   U -> X   V -> C   W -> V   X -> B   Y -> N   Z -> M
+Unmapped plaintext letters:
+
+===== Substitution Ciphers Brute-Force Menu =====
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 3
+Enter plain text: MEET ME AT THE PARK AT NINE O'CLOCK
+Enter cipher text: CLKLCLRSPDFLRMIRQRGAFMEUMHIZ
+
+=== Playfair Cipher Digraph Mapping & Partial Suggestion ===    
+
+Digraph pairs (plaintext -> ciphertext):
+ME -> CL
+ET -> KL
+ME -> CL
+AT -> RS
+TH -> PD
+EP -> FL
+AR -> RM
+KA -> IR
+TN -> QR
+IN -> GA
+EO -> FM
+CL -> EU
+OC -> MH
+KX -> IX
+
+Partial single-letter suggestions (plaintext letter -> possible cipher letters):
+A->R  B->?  C->E,H  D->?  E->F,K,L  F->?  G->?  H->D  I->G  K->I  L->U  M->C  N->A,R  O->M  P->L  Q->?  R->M  S->?  T->L,P,Q,S  U->?  V->?  W->?  X->X  Y->?  Z->?  
+
+And reverse (cipher letter -> possible plaintext letters):      
+A->N  B->?  C->M  D->H  E->C  F->E  G->I  H->C  I->K  K->E  L->E,P,T  M->O,R  N->?  O->?  P->T  Q->T  R->A,N  S->T  T->?  U->L  V->?  W->?  X->X  Y->?  Z->?
+
+Note: These are single-letter constraints; use multiple messages to fill the 5x5 table.
+
+===== Substitution Ciphers Brute-Force Menu =====
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 4
+Enter plain text: THIS IS HILL CIPHER TESTING MULTIPLE BLOCKS
+Enter cipher text: AVACACTCOZESONLPRGHBLDCUPRDAAHPNXOKCTV
+
+=== Hill Cipher 2x2 Mapping & Attempt Key Recovery ===
+
+Pairs (plaintext -> ciphertext):
+TH -> AV
+IS -> AC
+IS -> AC
+HI -> TC
+LL -> OZ
+CI -> ES
+PH -> ON
+ER -> LP
+TE -> RG
+ST -> HB
+IN -> LD
+GM -> CU
+UL -> PR
+TI -> DA
+PL -> AH
+EB -> PN
+LO -> XO
+CK -> KC
+SX -> TV
+
+Recovered 2x2 key matrix (mod 26):
+[[3, 3],
+ [2, 5]]
+
+===== Substitution Ciphers Brute-Force Menu =====
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 5
+Enter plain text: ATTACK AT DAWN THE ENEMY WILL BE DESTROYED
+Enter cipher text: LXFOPV EF RNHR FVR PRQAL HMXZ OP HQGGCSKSQ
+
+=== Vigenere Key Deduction ===
+Key sequence (per letter): LEMONLEMONLEMONLEMONLEMONLEMONLEMON  
+Suggested shortest repeating key (detected period): LEMON       
+
+===== Substitution Ciphers Brute-Force Menu =====
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher (Vigenere)
+6. Exit
+Enter your choice: 6
+Exiting program.
+
+risha@Admin MINGW64 ~/OneDrive/Desktop/labwork (master)
+$

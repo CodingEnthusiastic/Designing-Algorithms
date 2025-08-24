@@ -1,0 +1,124 @@
+PS C:\Users\risha\OneDrive\Desktop\labwork> g++ exp-1b.cpp
+PS C:\Users\risha\OneDrive\Desktop\labwork> ./a
+
+
+Welcome to Rishabh's CRT Theorem :
+
+Enter k (number of pairwise-coprime moduli): 3
+Enter m1..mk (pairwise coprime):
+109
+113
+127
+
+Menu Options present in my application:
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Quit
+Choose option: 1
+Enter A: 3452345342
+Enter B: 7894345671
+Result residues: 75 mod 109, 91 mod 113, 92 mod 127
+M = 1564259
+Final C (mod M) = 1120486
+
+Menu Options present in my application:
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Quit
+Choose option: 1
+Enter A: 678346
+Enter B: 783456797
+Result residues: 43 mod 109, 6 mod 113, 59 mod 127
+M = 1564259
+Final C (mod M) = 441384
+
+Menu Options present in my application:
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Quit
+Choose option: 2
+Enter A: 765356886
+Enter B: 95647854
+Result residues: 61 mod 109, 68 mod 113, 59 mod 127
+M = 1564259
+Final C (mod M) = 206180
+
+Menu Options present in my application:
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Quit
+Choose option: 2
+Enter A: 999999999
+Enter B: 348754334
+Result residues: 95 mod 109, 110 mod 113, 79 mod 127
+M = 1564259
+Final C (mod M) = 513921
+
+Menu Options present in my application:
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Quit
+Choose option: 3
+Enter A: 23556467
+Enter B: 6367865
+Result residues: 106 mod 109, 64 mod 113, 42 mod 127
+M = 1564259
+Final C (mod M) = 795697
+
+Menu Options present in my application:
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Quit
+Choose option: 3
+Enter A: 45678677
+Enter B: 86765466
+Result residues: 14 mod 109, 95 mod 113, 1 mod 127
+M = 1564259
+Final C (mod M) = 1540511
+
+Menu Options present in my application:
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Quit
+Choose option: 4
+Enter A: 45678976
+Enter B: 34234656
+Result residues: 107 mod 109, 30 mod 113, 77 mod 127
+M = 1564259
+Final C (mod M) = 1181558
+
+Menu Options present in my application:
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Quit
+Choose option: 4
+Enter A: 234567858
+Enter B: 757455789
+Result residues: 57 mod 109, 10 mod 113, 37 mod 127
+M = 1564259
+Final C (mod M) = 386244
+
+Menu Options present in my application:
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Quit
+Choose option: 5
+PS C:\Users\risha\OneDrive\Desktop\labwork>

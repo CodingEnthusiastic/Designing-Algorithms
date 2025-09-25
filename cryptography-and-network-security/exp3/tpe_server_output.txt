@@ -1,0 +1,7 @@
+risha@Admin MINGW64 ~/OneDrive/Desktop/labwork/exp5_cns (master)
+$ python tpe_server.py
+[TPE] Starting socket TPE on 0.0.0.0:5000
+[CRYPTO] Starting crypto service on 0.0.0.0:6000
+[MAIN] TPE and Crypto services started. Ctrl-C to exit.
+[TPE] Registered: Alice
+[TPE] Registered: Bob

@@ -1,0 +1,172 @@
+risha@Admin MINGW64 ~/OneDrive/Desktop/labwork/exp5_cns (master)
+$ python peer.py
+Enter TPE server IP (default 127.0.0.1): 127.0.0.1
+Enter TPE server port (default 5000): 5000
+Enter your identity (Alice/Bob/Charlie/David or any name): Alice
+Enter IP to listen on (default 0.0.0.0): 
+Enter port to listen on (e.g. 7000): 7000
+[Alice] Keys found under keys_Alice/
+[Alice] Toy asymmetric key (20-30 letters) for lab display: NuTfGGNwYXpWHmvtEEAV
+
+
+[Alice] Interactive menu. TPE=127.0.0.1:5000. Your server at 0.0.0.0:7000
+
+
+Choose action:
+ 1) Crypto client menu (AES/RSA/Hybrid/Perf)
+ 2) Register public key with TPE
+ 3) Fetch someone's public key from TPE (and store locally)
+ 4) Initiate SSL-1 handshake (connect to peer IP:port)
+ 5) Send encrypted & signed message (connect to peer IP:port)   
+ 6) Send close_notify
+ 7) Start chat with peer (quick interactive)
+ 8) List local state (keyring, sessions)
+ 9) Exit
+Enter choice: [Alice SERVER] Listening on 0.0.0.0:7000 for incoming peer connections...
+2
+[Alice] Registering public key with TPE...
+[Alice] Registration success.
+
+Choose action:
+ 1) Crypto client menu (AES/RSA/Hybrid/Perf)
+ 2) Register public key with TPE
+ 3) Fetch someone's public key from TPE (and store locally)     
+ 4) Initiate SSL-1 handshake (connect to peer IP:port)
+ 5) Send encrypted & signed message (connect to peer IP:port)   
+ 6) Send close_notify
+ 7) Start chat with peer (quick interactive)
+ 8) List local state (keyring, sessions)
+ 9) Exit
+Enter choice: 3
+Enter identity to fetch public key for: Bob
+[Alice] Fetching Bob's public key from TPE...
+[Alice] Stored Bob pub in local keyring.
+
+Choose action:
+ 1) Crypto client menu (AES/RSA/Hybrid/Perf)
+ 2) Register public key with TPE
+ 3) Fetch someone's public key from TPE (and store locally)     
+ 4) Initiate SSL-1 handshake (connect to peer IP:port)
+ 5) Send encrypted & signed message (connect to peer IP:port)   
+ 6) Send close_notify
+ 7) Start chat with peer (quick interactive)
+ 8) List local state (keyring, sessions)
+ 9) Exit
+Enter choice: 4
+Enter receiver identity: Bob
+Enter receiver IP/hostname: 127.0.0.1
+Enter receiver port: 8000
+[Alice] Preparing SSL-1 handshake for Bob -> 127.0.0.1:8000
+[Alice] Found Bob's key in local keyring.
+[Alice] Handshake sent to Bob
+[Alice] Toy symmetric key at sender (200-240 letters) sample: PzYmBpEcIDsdObPLUanFShooBtLsbPAqWwwKkePwzgvvMYgqKowUIhayToAMPXtOiPhYNxQaKTNGZYRz... (len=221)
+
+Choose action:
+ 1) Crypto client menu (AES/RSA/Hybrid/Perf)
+ 2) Register public key with TPE
+ 3) Fetch someone's public key from TPE (and store locally)     
+ 4) Initiate SSL-1 handshake (connect to peer IP:port)
+ 5) Send encrypted & signed message (connect to peer IP:port)   
+ 6) Send close_notify
+ 7) Start chat with peer (quick interactive)
+ 8) List local state (keyring, sessions)
+ 9) Exit
+Enter choice: 5
+Enter recipient identity: Bob
+Enter recipient IP/hostname: 127.0.0.1
+Enter recipient port: 8000
+Enter plaintext message to send: Bob and Alice are best friends
+[Alice] Encrypted & signed message sent to Bob
+
+Choose action:
+ 1) Crypto client menu (AES/RSA/Hybrid/Perf)
+ 2) Register public key with TPE
+ 3) Fetch someone's public key from TPE (and store locally)     
+ 4) Initiate SSL-1 handshake (connect to peer IP:port)
+ 5) Send encrypted & signed message (connect to peer IP:port)   
+ 6) Send close_notify
+ 7) Start chat with peer (quick interactive)
+ 8) List local state (keyring, sessions)
+ 9) Exit
+Enter choice: 1
+Crypto service host (default 127.0.0.1): 
+Crypto service port (default 6000): 
+
+Crypto Menu:
+ 1) AES Encryption
+ 2) AES Decryption
+ 3) RSA Encrypt
+ 4) RSA Decrypt
+ 5) Hybrid Encrypt (RSA(pub)+AES-GCM)
+ 6) Hybrid Decrypt
+ 7) Performance Comparison
+ 8) Back
+Enter choice: 1
+Mode (gcm/cbc) [gcm]: 
+Provide key? (y/N): n
+Enter plaintext: This is AES test
+Response: {'status': 'ok', 'nonce': '9r0SBZqXlkZDjg7wbGe+7A==', 'ciphertext': 'mW6rC/1F6GZPV6FUqzPYVQ==', 'tag': 'RklQL8AS1RVRKs+HdPrQzw==', 'key': 'g9kt4P9jH+7TBCY8Dz5yY8qGxnjw/d4fXGeSpSZK3Jg='}
+
+Crypto Menu:
+ 1) AES Encryption
+ 2) AES Decryption
+ 3) RSA Encrypt
+ 4) RSA Decrypt
+ 5) Hybrid Encrypt (RSA(pub)+AES-GCM)
+ 6) Hybrid Decrypt
+ 7) Performance Comparison
+ 8) Back
+Enter choice: 2
+Mode (gcm/cbc) [gcm]: 
+Enter key (base64): g9kt4P9jH+7TBCY8Dz5yY8qGxnjw/d4fXGeSpSZK3Jg=
+
+Enter nonce (base64): 9r0SBZqXlkZDjg7wbGe+7A==
+Enter ciphertext (base64): mW6rC/1F6GZPV6FUqzPYVQ==
+Enter tag (base64): RklQL8AS1RVRKs+HdPrQzw==
+Response: {'status': 'ok', 'plaintext': 'VGhpcyBpcyBBRVMgdGVzdA==', 'plaintext_utf': 'This is AES test'}
+
+Crypto Menu:
+ 1) AES Encryption
+ 2) AES Decryption
+ 3) RSA Encrypt
+ 4) RSA Decrypt
+ 5) Hybrid Encrypt (RSA(pub)+AES-GCM)
+ 6) Hybrid Decrypt
+ 7) Performance Comparison
+ 8) Back
+Enter choice: 3
+Path to recipient public PEM (or paste PEM, leave blank to fetch from TPE):
+Enter recipient identity (for TPE fetch): Bob
+[local] Fetching Bob's public key from TPE...
+[local] Stored Bob pub in local keyring.
+Enter plaintext: RSA hello
+Response: {'status': 'ok', 'ciphertext': 'H426aH4aDumXUPzlioqC81LSTCZJ0H8o0Qlqpm1iqIGtMaLQQ0g7p20E7fsE+j15E3sN3BxTV78WUuLUQhE9T55oMvEGFWwrLZpgSlgxshCYdm55ihLCfkq1j7G81HY8mZEJuJptEmPDzRmprFmzgY9VR7kcaFyr1mStMhJKME1acRT4EQmARjBVt14165u5oK5I4H3mrNILipMvaS95IjTGQckSEA7eIx+vgJNvi/y1RF/84b5CgIiqIKTTy444KUnOPt2mIJEF6Q0TcnN0HXEc2fFJHC4tePM8V28+LdGW/66CGERlgzViqObD8+AuQ6a1H7zCzP+jHSJ0/m9+SQ=='}
+
+Crypto Menu:
+ 1) AES Encryption
+ 2) AES Decryption
+ 3) RSA Encrypt
+ 4) RSA Decrypt
+ 5) Hybrid Encrypt (RSA(pub)+AES-GCM)
+ 6) Hybrid Decrypt
+ 7) Performance Comparison
+ 8) Back
+Enter choice: 5
+Path to recipient public PEM (or leave blank to fetch from TPE):
+
+Enter recipient identity (for TPE fetch): Bob
+[local] Fetching Bob's public key from TPE...
+[local] Stored Bob pub in local keyring.
+Enter plaintext: Hybrid hello
+Response: {'status': 'ok', 'enc_sym_key': 'Rd5t7sLB9N9c5pFqZ01EssxCFCzgDcgONyPy7zqa+TQDYmmjDL1k2ZXDxjtQhFdNBS3eu1qzSk62/sKUdDAix5IAynj+rXTYIuKgMtvrnwVGeuYM1FwWz2KDS0PRE/2S2ehKbPF2QPkcWohO/MjO5vcsftIab3gzCLX3vLCJR5JDyzFnyYTYp26bs8lGkJWNw1tTsdzQCIUDnOlGajZphvGwWzSOWJCxI0hsncK2MS0MNRjRoSWwGDDrvWufatu/N4qphFNuPsnCAZa0UwRpWxubxa/RaYcv5YHO0dqQWUGpp0PwcPKAyxfBIYPwbNylegZYtKMoVQ81rLDPi0/zDw==', 'nonce': 'u7A+Bcs0t4UTSrDxv8CETQ==', 'ciphertext': '826M4bIjUCV00+IM', 'tag': 'YM5aM+N468/GQPI6qXCPEg=='}
+
+Crypto Menu:
+ 1) AES Encryption
+ 2) AES Decryption
+ 3) RSA Encrypt
+ 4) RSA Decrypt
+ 5) Hybrid Encrypt (RSA(pub)+AES-GCM)
+ 6) Hybrid Decrypt
+ 7) Performance Comparison
+ 8) Back
+Enter choice:

@@ -1,0 +1,156 @@
+
+oslab@oslab-Veriton-M200-H110:~/Documents/Rishabh-Shenoy-2023300222/exp8$ python3 exp8.py
+
+--- X.509 PKI MENU ---
+1. Parse Certificate
+2. Verify Certificate Chain
+3. CA Operations (Issue/Revoke)
+4. Certificate Status Check
+5. Quit
+Enter choice: 3
+
+1. Generate Root CA
+2. Issue Certificate
+3. Revoke Certificate
+Enter option: 1
+Root CA generated → test_certs/ca.cert.pem
+
+--- X.509 PKI MENU ---
+1. Parse Certificate
+2. Verify Certificate Chain
+3. CA Operations (Issue/Revoke)
+4. Certificate Status Check
+5. Quit
+Enter choice: 3
+
+1. Generate Root CA
+2. Issue Certificate
+3. Revoke Certificate
+Enter option: 2
+Enter Common Name for new cert: user.local
+Issued certificate for user.local → test_certs/user.local.cert.pem
+
+--- X.509 PKI MENU ---
+1. Parse Certificate
+2. Verify Certificate Chain
+3. CA Operations (Issue/Revoke)
+4. Certificate Status Check
+5. Quit
+Enter choice: 1
+Enter certificate path (PEM/DER): test_certs/user.local.cert.pem
+
+--- Parsed Certificate ---
+Version: v3
+Serial Number: 0x7377496e6ce872b8ed46c51e641dfa7b329cd96b
+Signature Algorithm: sha256WithRSAEncryption
+Issuer: CN=Test Root CA,O=SPIT,C=IN
+Subject: CN=user.local
+Validity:
+/home/oslab/Documents/Rishabh-Shenoy-2023300222/exp8/exp8.py:44: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_before_utc.
+  print("  Not Before:", cert.not_valid_before)
+  Not Before: 2025-10-15 06:31:26
+/home/oslab/Documents/Rishabh-Shenoy-2023300222/exp8/exp8.py:45: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
+  print("  Not After :", cert.not_valid_after)
+  Not After : 2026-10-15 06:31:26
+Public Key Algorithm: RSA
+  Modulus bits: 2048
+  Exponent: 65537
+
+Extensions:
+  basicConstraints: <BasicConstraints(ca=False, path_length=None)>
+
+Fingerprint (SHA1): 553494a010674c0687c8063fc2a9027347d4f0f9
+Fingerprint (SHA256): bfe7f6ea90516e09b7415c21af031f68418a6ef28a27915be201373ad3a02216
+
+--- X.509 PKI MENU ---
+1. Parse Certificate
+2. Verify Certificate Chain
+3. CA Operations (Issue/Revoke)
+4. Certificate Status Check
+5. Quit
+Enter choice: 2
+Enter end-entity cert path: test_certs/user.local.cert.pem
+Enter intermediate cert path:  test_certs/ca.cert.pem
+Enter root cert path: test_certs/ca.cert.pem
+
+--- Certificate Chain Validation ---
+/home/oslab/Documents/Rishabh-Shenoy-2023300222/exp8/exp8.py:110: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_before_utc.
+  if not (c.not_valid_before <= now <= c.not_valid_after):
+/home/oslab/Documents/Rishabh-Shenoy-2023300222/exp8/exp8.py:110: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
+  if not (c.not_valid_before <= now <= c.not_valid_after):
+
+Chain Validation: SUCCESS ✅
+
+--- X.509 PKI MENU ---
+1. Parse Certificate
+2. Verify Certificate Chain
+3. CA Operations (Issue/Revoke)
+4. Certificate Status Check
+5. Quit
+Enter choice: 3
+
+1. Generate Root CA
+2. Issue Certificate
+3. Revoke Certificate
+Enter option: 3
+Enter serial (hex) to revoke: 0x7377496e6ce872b8ed46c51e641dfa7b329cd96b
+Serial 0x7377496e6ce872b8ed46c51e641dfa7b329cd96b revoked.
+
+--- X.509 PKI MENU ---
+1. Parse Certificate
+2. Verify Certificate Chain
+3. CA Operations (Issue/Revoke)
+4. Certificate Status Check
+5. Quit
+Enter choice: 4
+Enter certificate serial (hex):  0x7377496e6ce872b8ed46c51e641dfa7b329cd96b^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^                                               
+Serial not found.
+
+--- X.509 PKI MENU ---
+1. Parse Certificate
+2. Verify Certificate Chain
+3. CA Operations (Issue/Revoke)
+4. Certificate Status Check
+5. Quit
+Enter choice: 4
+Enter certificate serial (hex):  0x7377496e6ce872b8ed46c51e641dfa7b329cd96b
+Serial not found.
+
+--- X.509 PKI MENU ---
+1. Parse Certificate
+2. Verify Certificate Chain
+3. CA Operations (Issue/Revoke)
+4. Certificate Status Check
+5. Quit
+Enter choice: 4
+Enter certificate serial (hex): 0x7377496e6ce872b8ed46c51e641dfa7b329cd96b
+Status: REVOKED at 2025-10-15 06:34:53.444065
+
+--- X.509 PKI MENU ---
+1. Parse Certificate
+2. Verify Certificate Chain
+3. CA Operations (Issue/Revoke)
+4. Certificate Status Check
+5. Quit
+Enter choice: cat cert_db.json
+Invalid option
+
+--- X.509 PKI MENU ---
+1. Parse Certificate
+2. Verify Certificate Chain
+3. CA Operations (Issue/Revoke)
+4. Certificate Status Check
+5. Quit
+Enter choice: 5
+oslab@oslab-Veriton-M200-H110:~/Documents/Rishabh-Shenoy-2023300222/exp8$ cat cert_db.json
+{
+  "serials": {
+    "0x7377496e6ce872b8ed46c51e641dfa7b329cd96b": {
+      "cn": "user.local",
+      "status": "revoked"
+    }
+  },
+  "revoked": {
+    "0x7377496e6ce872b8ed46c51e641dfa7b329cd96b": "2025-10-15 06:34:53.444065"
+  }
+}oslab@oslab-Veriton-M200-H110:~/Documents/Rishabh-Shenoy-2023300222/exp8$ 

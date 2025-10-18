@@ -1,0 +1,21 @@
+C A Subject: CN=Rishabh Shenoy Test CA
+End-Entity Subject: CN=end-entity.rishabhshenoy.test
+End-Entity Serial: 865937502904152139601255871940284679015731238764
+[CLIENT] Built OCSP request for serial=865937502904152139601255871940284679015731238764
+Request fingerprint (for tracing): a1c53b7e42db4b37cd8e7fd6943a52f0d91e8b241b97de0a9c6f8d7b5a03e4c2
+[RESPONDER] Produced OCSP response: serial=865937502904152139601255871940284679015731238764, status=good
+[CLIENT] OCSP response signature verified and responder trusted (simulation).
+[CLIENT] Certificate status for serial 865937502904152139601255871940284679015731238764: good
+Response details: {'responder_name': 'CN=Rishabh Shenoy Test CA', 'cert_serial': 865937502904152139601255871940284679015731238764, 'cert_status': 'good', 'produced_at': '2025-10-16T22:30:48.951327+00:00', 'this_update': '2025-10-16T22:30:48.950732+00:00', 'next_update': '2025-10-23T22:30:48.950732+00:00', 'signature_algorithm': 'sha256WithRSAEncryption', 'signature_hex': '4b2eaf1a9d8729efcbe10956a892ff09d67240c89b3e7cbf2335a0cc6b7849ddef7b26dbe57b37df0a3ab5f4ec4dfb935af30b9c891b8cb85c7e347f02a65f4a4a7f2e3bdb7486049d19f47bfa24150950a7efc89e0efcc00248c91c8e64f8c63bbdcb0e3b037ad8b1c64c8256e73899a35d2ab46a0d89cf9a12c5b16f7d45dfb6c9e11d7b6a440874a9d5b7c06cb6a28f39112b71c71a75bfa91adf80c8c33bfb8d401dfc503a5a8769eb51dc607320d98e89a71f586c19830b3b6cc1c40a1fdb34657b128987cbdd63b89b12b96f18ee1747cbaf2340b7694bb93bb257ff84e57c3ad51d98e8af3a2e65a9b9cd49a1f558637f6dbfa05c58be4d2967'}
+
+
+[RESPONDER] Produced OCSP response: serial=865937502904152139601255871940284679015731238764, status=revoked
+[CLIENT] OCSP response signature verified and responder trusted (simulation).
+[CLIENT] Certificate status for serial 865937502904152139601255871940284679015731238764: revoked
+Response details: {'responder_name': 'CN=Rishabh Shenoy Test CA', 'cert_serial': 865937502904152139601255871940284679015731238764, 'cert_status': 'revoked', 'produced_at': '2025-10-16T22:30:48.953218+00:00', 'this_update': '2025-10-16T22:30:48.952737+00:00', 'next_update': '2025-10-23T22:30:48.952737+00:00', 'signature_algorithm': 'sha256WithRSAEncryption', 'signature_hex': '6e0fd9b5c1ac349c5ff3e22c573ca172fdc207143a7cf42b19c4f50e983f3744d2a135f3b7b4df52b4d7f3c6c5a3e9cfb8f7e2916a4cc6139c85a67f2c3b14b1449938e2f64c9d65c8726b120a7731b9046f89fa4a6d8cce3d73130a7b5a22c43bfa16b23cbe814d3a4c3ee93865a221d5c4d358d9b3a7447d845672c2a52785fb03f0e5f6b79802a381a741ea7796a9a6b9cc26749ff57da2e9e208a3c13a1e4240f704ce3198d85e1e653c82ec3c7f8a2485f7a8d8a446a0e2db39d678b528e3e63125e17a82b504fc4cd80be53dbb8c490eaa80a51c93b632b0193f90e934d3089bc49239de828b43f938a5ef8723d83d2ad5d0b3b6d3ff29b92f407ecb9c'}
+
+
+[RESPONDER] Produced OCSP response: serial=865937502904152139601255871940284679015731238764, status=unknown
+[CLIENT] OCSP response signature verified and responder trusted (simulation).
+[CLIENT] Certificate status for serial 865937502904152139601255871940284679015731238764: unknown
+Response details: {'responder_name': 'CN=Rishabh Shenoy Test CA', 'cert_serial': 865937502904152139601255871940284679015731238764, 'cert_status': 'unknown', 'produced_at': '2025-10-16T22:30:48.955208+00:00', 'this_update': '2025-10-16T22:30:48.954790+00:00', 'next_update': '2025-10-23T22:30:48.954790+00:00', 'signature_algorithm': 'sha256WithRSAEncryption', 'signature_hex': '1ad4b5a6e8c9c7b24e0f6a2973dd6a4d60a7f927e844b3f157dc9f4ce1848cfb0b933a72e9e3a0b914b82cd8d9dcf3f3b37ccdc8cc32c168b21a8caa0e5a4b1878e47d27c7f51969a1f1ed251329e5b39f6c304079fc6e4b84b1a1edb62902a6de8d35e422b5413076f846be9641c0d8a3027b74df8e32ccae13a89c89b6e91c184a4bdfcde4920a21734f78a3cbb0dfab815fd76c3c7a35c97f67c518aa5a951683dbed8aefb8c4f17330a8df64a9073c55b82f892f2d388fbfa8c0623ec05619b8d857f8d2e66e2297e4b39c55b1cbf35a177dc40597aa6a7852a874f2b8d9cc2df0d7896f8a017dd50b5ef935ec9c47c9e62cbadce9bf71822c7ef1'}
